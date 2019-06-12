@@ -4,8 +4,6 @@
 
 ![项目架构图](https://raw.githubusercontent.com/jzyong/game-server/master/game-config/src/main/resources/image/server-architecture.jpg)
 
-QQ交流群:144709243
-		
 
 
 此架构根据单区的棋牌游戏进行架构，同样也适用于分区分服的MMO类游戏。内部服务器统一使用TCP进行通信，同时每个游戏预留HTTP通信接口，用于管理员或用户进行调用。服务器主要模块分为:
